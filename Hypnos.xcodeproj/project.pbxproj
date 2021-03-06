@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E5EBE1325F141BB006A6CC3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5EBE1225F141BB006A6CC3 /* Helper.swift */; };
+		5EECBADA25F2191E00B67039 /* TimerView 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EECBAD925F2191E00B67039 /* TimerView 1.swift */; };
+		5EF1D80D25F15B9D00B79BB0 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF1D80C25F15B9D00B79BB0 /* TimerManager.swift */; };
 		FAC704E625E957770074BDC5 /* HypnosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC704E525E957770074BDC5 /* HypnosApp.swift */; };
 		FAC704E825E957770074BDC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC704E725E957770074BDC5 /* ContentView.swift */; };
 		FAC704EA25E957780074BDC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC704E925E957780074BDC5 /* Assets.xcassets */; };
@@ -33,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E5EBE1225F141BB006A6CC3 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		5EECBAD925F2191E00B67039 /* TimerView 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimerView 1.swift"; sourceTree = "<group>"; };
+		5EF1D80C25F15B9D00B79BB0 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
 		FAC704E225E957770074BDC5 /* Hypnos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypnos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC704E525E957770074BDC5 /* HypnosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypnosApp.swift; sourceTree = "<group>"; };
 		FAC704E725E957770074BDC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,9 +78,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5EB22F8925F14C6600EF5171 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
 		FAC704D925E957770074BDC5 = {
 			isa = PBXGroup;
 			children = (
+				5E5EBE1225F141BB006A6CC3 /* Helper.swift */,
 				FAC704E425E957770074BDC5 /* Hypnos */,
 				FAC704F625E957780074BDC5 /* HypnosTests */,
 				FAC7050125E957780074BDC5 /* HypnosUITests */,
@@ -95,9 +109,12 @@
 		FAC704E425E957770074BDC5 /* Hypnos */ = {
 			isa = PBXGroup;
 			children = (
+				5EF1D80C25F15B9D00B79BB0 /* TimerManager.swift */,
+				5EECBAD925F2191E00B67039 /* TimerView 1.swift */,
 				FAC704E525E957770074BDC5 /* HypnosApp.swift */,
 				FAC704E725E957770074BDC5 /* ContentView.swift */,
 				FAC704E925E957780074BDC5 /* Assets.xcassets */,
+				5EB22F8925F14C6600EF5171 /* Timer */,
 				FAC704EE25E957780074BDC5 /* Info.plist */,
 				FAC704EB25E957780074BDC5 /* Preview Content */,
 			);
@@ -260,7 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC704E825E957770074BDC5 /* ContentView.swift in Sources */,
+				5EECBADA25F2191E00B67039 /* TimerView 1.swift in Sources */,
+				5EF1D80D25F15B9D00B79BB0 /* TimerManager.swift in Sources */,
 				FAC704E625E957770074BDC5 /* HypnosApp.swift in Sources */,
+				5E5EBE1325F141BB006A6CC3 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
