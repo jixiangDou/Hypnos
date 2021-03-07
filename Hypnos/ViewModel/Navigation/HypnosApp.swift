@@ -12,6 +12,7 @@ struct HypnosApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(CoreBluetoothViewModel())
         }
     }
 }

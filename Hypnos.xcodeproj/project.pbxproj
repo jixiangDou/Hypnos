@@ -8,10 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		5E5EBE1325F141BB006A6CC3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5EBE1225F141BB006A6CC3 /* Helper.swift */; };
-		5EECBADA25F2191E00B67039 /* TimerView 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EECBAD925F2191E00B67039 /* TimerView 1.swift */; };
+		5EECBADA25F2191E00B67039 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EECBAD925F2191E00B67039 /* TimerView.swift */; };
 		5EF1D80D25F15B9D00B79BB0 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF1D80C25F15B9D00B79BB0 /* TimerManager.swift */; };
+		85A99D7E25F3FFBF00552A78 /* CoreBluetoothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A99D7D25F3FFBF00552A78 /* CoreBluetoothViewModel.swift */; };
+		85A99D8325F401F300552A78 /* CBPeripheralProtocolDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A99D8225F401F300552A78 /* CBPeripheralProtocolDelegate.swift */; };
+		85B205F425F40765002E664A /* Peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B205F325F40765002E664A /* Peripheral.swift */; };
+		85B205F925F407A0002E664A /* Characteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B205F825F407A0002E664A /* Characteristic.swift */; };
+		85B205FE25F40D6F002E664A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B205FD25F40D6F002E664A /* Service.swift */; };
+		85B2060525F40EE4002E664A /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2060425F40EE4002E664A /* Mock.swift */; };
+		85B2060D25F40F0D002E664A /* CBCentralManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2060C25F40F0D002E664A /* CBCentralManagerMock.swift */; };
+		85B2061225F40F65002E664A /* CBPeripheralMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2061125F40F65002E664A /* CBPeripheralMock.swift */; };
+		85B2061725F40F93002E664A /* ServiceCharacteristicsMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2061625F40F93002E664A /* ServiceCharacteristicsMock.swift */; };
+		85B2061C25F410A4002E664A /* CoreBluetoothViewModelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2061B25F410A4002E664A /* CoreBluetoothViewModelExtension.swift */; };
+		85B2063A25F42738002E664A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2063925F42738002E664A /* ContentView.swift */; };
+		85B2064825F43C4D002E664A /* ScanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2064725F43C4D002E664A /* ScanListView.swift */; };
+		85B2064D25F43C7B002E664A /* ScanDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B2064C25F43C7B002E664A /* ScanDetailView.swift */; };
 		FAC704E625E957770074BDC5 /* HypnosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC704E525E957770074BDC5 /* HypnosApp.swift */; };
-		FAC704E825E957770074BDC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC704E725E957770074BDC5 /* ContentView.swift */; };
+		FAC704E825E957770074BDC5 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC704E725E957770074BDC5 /* Weather.swift */; };
 		FAC704EA25E957780074BDC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC704E925E957780074BDC5 /* Assets.xcassets */; };
 		FAC704ED25E957780074BDC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC704EC25E957780074BDC5 /* Preview Assets.xcassets */; };
 		FAC704F825E957780074BDC5 /* HypnosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC704F725E957780074BDC5 /* HypnosTests.swift */; };
@@ -37,11 +50,24 @@
 
 /* Begin PBXFileReference section */
 		5E5EBE1225F141BB006A6CC3 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
-		5EECBAD925F2191E00B67039 /* TimerView 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimerView 1.swift"; sourceTree = "<group>"; };
+		5EECBAD925F2191E00B67039 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		5EF1D80C25F15B9D00B79BB0 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		85A99D7D25F3FFBF00552A78 /* CoreBluetoothViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothViewModel.swift; sourceTree = "<group>"; };
+		85A99D8225F401F300552A78 /* CBPeripheralProtocolDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBPeripheralProtocolDelegate.swift; sourceTree = "<group>"; };
+		85B205F325F40765002E664A /* Peripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peripheral.swift; sourceTree = "<group>"; };
+		85B205F825F407A0002E664A /* Characteristic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characteristic.swift; sourceTree = "<group>"; };
+		85B205FD25F40D6F002E664A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		85B2060425F40EE4002E664A /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
+		85B2060C25F40F0D002E664A /* CBCentralManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBCentralManagerMock.swift; sourceTree = "<group>"; };
+		85B2061125F40F65002E664A /* CBPeripheralMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBPeripheralMock.swift; sourceTree = "<group>"; };
+		85B2061625F40F93002E664A /* ServiceCharacteristicsMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCharacteristicsMock.swift; sourceTree = "<group>"; };
+		85B2061B25F410A4002E664A /* CoreBluetoothViewModelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothViewModelExtension.swift; sourceTree = "<group>"; };
+		85B2063925F42738002E664A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85B2064725F43C4D002E664A /* ScanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanListView.swift; sourceTree = "<group>"; };
+		85B2064C25F43C7B002E664A /* ScanDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDetailView.swift; sourceTree = "<group>"; };
 		FAC704E225E957770074BDC5 /* Hypnos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypnos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC704E525E957770074BDC5 /* HypnosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypnosApp.swift; sourceTree = "<group>"; };
-		FAC704E725E957770074BDC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAC704E725E957770074BDC5 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		FAC704E925E957780074BDC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC704EC25E957780074BDC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAC704EE25E957780074BDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,11 +104,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5EB22F8925F14C6600EF5171 /* Timer */ = {
+		858F015725F3F23A00E53341 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				85A99D8225F401F300552A78 /* CBPeripheralProtocolDelegate.swift */,
+				858F015825F3F24100E53341 /* CoreBluetooth */,
 			);
-			path = Timer;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		858F015825F3F24100E53341 /* CoreBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				85B2060325F40ECB002E664A /* Mock */,
+				85B205F225F40752002E664A /* Store */,
+			);
+			path = CoreBluetooth;
+			sourceTree = "<group>";
+		};
+		858F015925F3F25C00E53341 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				85B2062925F424B5002E664A /* CoreBluetooth */,
+				5EF1D80C25F15B9D00B79BB0 /* TimerManager.swift */,
+				85A99D7225F3FBA900552A78 /* Navigation */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		858F015A25F3F26600E53341 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAC704E725E957770074BDC5 /* Weather.swift */,
+				5EECBAD925F2191E00B67039 /* TimerView.swift */,
+				85B2063925F42738002E664A /* ContentView.swift */,
+				85B2064725F43C4D002E664A /* ScanListView.swift */,
+				85B2064C25F43C7B002E664A /* ScanDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85A99D7225F3FBA900552A78 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				FAC704E525E957770074BDC5 /* HypnosApp.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		85A99D7625F3FBD300552A78 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FAC704E925E957780074BDC5 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		85B205F225F40752002E664A /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				85B205F325F40765002E664A /* Peripheral.swift */,
+				85B205F825F407A0002E664A /* Characteristic.swift */,
+				85B205FD25F40D6F002E664A /* Service.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		85B2060325F40ECB002E664A /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				85B2060425F40EE4002E664A /* Mock.swift */,
+				85B2060C25F40F0D002E664A /* CBCentralManagerMock.swift */,
+				85B2061125F40F65002E664A /* CBPeripheralMock.swift */,
+				85B2061625F40F93002E664A /* ServiceCharacteristicsMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		85B2062925F424B5002E664A /* CoreBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				85A99D7D25F3FFBF00552A78 /* CoreBluetoothViewModel.swift */,
+				85B2061B25F410A4002E664A /* CoreBluetoothViewModelExtension.swift */,
+			);
+			path = CoreBluetooth;
 			sourceTree = "<group>";
 		};
 		FAC704D925E957770074BDC5 = {
@@ -109,13 +214,11 @@
 		FAC704E425E957770074BDC5 /* Hypnos */ = {
 			isa = PBXGroup;
 			children = (
-				5EF1D80C25F15B9D00B79BB0 /* TimerManager.swift */,
-				5EECBAD925F2191E00B67039 /* TimerView 1.swift */,
-				FAC704E525E957770074BDC5 /* HypnosApp.swift */,
-				FAC704E725E957770074BDC5 /* ContentView.swift */,
-				FAC704E925E957780074BDC5 /* Assets.xcassets */,
-				5EB22F8925F14C6600EF5171 /* Timer */,
+				858F015725F3F23A00E53341 /* Model */,
+				858F015925F3F25C00E53341 /* ViewModel */,
+				858F015A25F3F26600E53341 /* View */,
 				FAC704EE25E957780074BDC5 /* Info.plist */,
+				85A99D7625F3FBD300552A78 /* Resource */,
 				FAC704EB25E957780074BDC5 /* Preview Content */,
 			);
 			path = Hypnos;
@@ -276,11 +379,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC704E825E957770074BDC5 /* ContentView.swift in Sources */,
-				5EECBADA25F2191E00B67039 /* TimerView 1.swift in Sources */,
+				85B2060525F40EE4002E664A /* Mock.swift in Sources */,
+				FAC704E825E957770074BDC5 /* Weather.swift in Sources */,
+				85B2063A25F42738002E664A /* ContentView.swift in Sources */,
+				5EECBADA25F2191E00B67039 /* TimerView.swift in Sources */,
+				85A99D8325F401F300552A78 /* CBPeripheralProtocolDelegate.swift in Sources */,
+				85B2064825F43C4D002E664A /* ScanListView.swift in Sources */,
+				85B2060D25F40F0D002E664A /* CBCentralManagerMock.swift in Sources */,
+				85B205F925F407A0002E664A /* Characteristic.swift in Sources */,
 				5EF1D80D25F15B9D00B79BB0 /* TimerManager.swift in Sources */,
+				85A99D7E25F3FFBF00552A78 /* CoreBluetoothViewModel.swift in Sources */,
 				FAC704E625E957770074BDC5 /* HypnosApp.swift in Sources */,
+				85B2061225F40F65002E664A /* CBPeripheralMock.swift in Sources */,
+				85B205FE25F40D6F002E664A /* Service.swift in Sources */,
 				5E5EBE1325F141BB006A6CC3 /* Helper.swift in Sources */,
+				85B2064D25F43C7B002E664A /* ScanDetailView.swift in Sources */,
+				85B2061C25F410A4002E664A /* CoreBluetoothViewModelExtension.swift in Sources */,
+				85B2061725F40F93002E664A /* ServiceCharacteristicsMock.swift in Sources */,
+				85B205F425F40765002E664A /* Peripheral.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

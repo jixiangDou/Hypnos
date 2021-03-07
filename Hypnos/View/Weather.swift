@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct WeatherView: View {
     
     @State private var isNight = false
     var body: some View {
@@ -51,9 +51,9 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct WeathertView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        WeatherView()
             .previewLayout(.device)
             .previewDevice("iPhone 12 Pro")
     }
